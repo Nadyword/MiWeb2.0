@@ -75,25 +75,18 @@ export default function Hero() {
                 </div>
                 <div className="flex gap-4 pt-4">
                     <a
-                        href="#"
+                        href="https://github.com/Nadyword"
                         className="bg-background text-foreground hover:text-primary p-2 rounded-full border border-border hover:border-primary transition-colors"
                         aria-label="Github"
                     >
                         <Github className="h-5 w-5" />
                     </a>
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/samuel-sanchez-774636169/"
                         className="bg-background text-foreground hover:text-primary p-2 rounded-full border border-border hover:border-primary transition-colors"
                         aria-label="LinkedIn"
                     >
                         <Linkedin className="h-5 w-5" />
-                    </a>
-                    <a
-                        href="#"
-                        className="bg-background text-foreground hover:text-primary p-2 rounded-full border border-border hover:border-primary transition-colors"
-                        aria-label="Código"
-                    >
-                        <Code className="h-5 w-5" />
                     </a>
                 </div>
             </motion.div>

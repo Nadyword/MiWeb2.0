@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\mi-portfolio"
+    "\\mi-portfolio",
+    "\\mi-portfolio\\src\\app"
   ],
-  "SelectedNode": "\\mi-portfolio",
+  "SelectedNode": "\\mi-portfolio\\src",
   "PreviewInSolutionExplorer": false
 }
