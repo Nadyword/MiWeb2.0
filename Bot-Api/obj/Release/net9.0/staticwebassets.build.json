@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GaZKocRyw53cnwOXZ7ib9YC6qpOgO5L90uG7cTVMJ7I=",
+  "Source": "Bot-Api",
+  "BasePath": "_content/Bot-Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
