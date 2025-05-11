@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bot-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+724295baf6007d38ff498f3bc908af126fd63352")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f28188e5c6fbcbd984367688b230b77996aafe0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bot-Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bot-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

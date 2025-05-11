@@ -1,23 +1,60 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.OpenApi.Models;
 
-// Add services to the container.
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+#region Variables de clase
+
+var builder = WebApplication.CreateBuilder(args);
+var environmentName = builder.Configuration.GetValue<string>("Environment:Name")!;
+var port = builder.Configuration.GetValue<string>("Port")!;
+
+#endregion
+
+ConfigureServices(builder.Services);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+ConfigureMiddleware(app, environmentName, port);
+
+app.Run();
+
+
+#region MÉTODOS AUXILIARES
+
+void ConfigureServices(IServiceCollection services)
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
+    services.AddControllers();
+    services.AddEndpointsApiExplorer();
+
+    if (environmentName.Equals("Development", StringComparison.OrdinalIgnoreCase))
     {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-        options.RoutePrefix = string.Empty;
-    });
+        services.AddSwaggerGen(opt =>
+        {
+            opt.SwaggerDoc("v1", new OpenApiInfo
+            {
+                Title = "My API",
+                Version = "v1"
+            });
+        });
+    }
 }
 
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
+void ConfigureMiddleware(WebApplication app, string env, string port)
+{
+    if (env.Equals("Development", StringComparison.OrdinalIgnoreCase))
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI(options =>
+        {
+            options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+            options.RoutePrefix = string.Empty;
+        });
+    }
+    else
+    {
+        app.Urls.Add($"http://*:{port}");
+    }
+
+    app.UseAuthorization();
+    app.MapControllers();
+}
+
+#endregion
