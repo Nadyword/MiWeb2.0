@@ -5,8 +5,6 @@ using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 var environmentName = builder.Configuration.GetValue<string>("Environment:Name")!;
 var port = builder.Configuration.GetValue<string>("Environment:Port")!;      
-Console.WriteLine($"Environment: {environmentName}");
-Console.WriteLine($"Port: {port}");
 
 #endregion
 
@@ -17,7 +15,6 @@ var app = builder.Build();
 ConfigureMiddleware(app, environmentName, port);
 
 app.Run();
-
 
 #region MÉTODOS AUXILIARES
 
