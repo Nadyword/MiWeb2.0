@@ -52,7 +52,7 @@ void ConfigureMiddleware(WebApplication app, string env, string port)
     }
     else
     {
-        app.Urls.Add($"http://http://localhost:{port}");
+        app.Urls.Add($"http://localhost:{port}");
     }
 
     app.UseAuthorization();
