@@ -4,7 +4,9 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var environmentName = builder.Configuration.GetValue<string>("Environment:Name")!;
-var port = builder.Configuration.GetValue<string>("Port")!;
+var port = builder.Configuration.GetValue<string>("Environment:Port")!;      
+Console.WriteLine($"Environment: {environmentName}");
+Console.WriteLine($"Port: {port}");
 
 #endregion
 
@@ -50,7 +52,7 @@ void ConfigureMiddleware(WebApplication app, string env, string port)
     }
     else
     {
-        app.Urls.Add($"http://*:{port}");
+        app.Urls.Add($"http://http://localhost:{port}");
     }
 
     app.UseAuthorization();

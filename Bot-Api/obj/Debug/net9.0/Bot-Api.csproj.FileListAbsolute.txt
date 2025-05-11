@@ -36,3 +36,4 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Debug\net9.0\Bot-Api.pdb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Debug\net9.0\Bot-Api.genruntimeconfig.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Debug\net9.0\ref\Bot-Api.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\bin\Debug\net9.0\appsettings.Production.json
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
