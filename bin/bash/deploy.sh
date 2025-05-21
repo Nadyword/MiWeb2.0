@@ -13,7 +13,7 @@ echo "🧹 4. Eliminando versión anterior publicada"
 rm -rf App/publish/
 
 echo "📁 5. Copiando nueva publicación a carpeta final"
-cp -r MiWeb2.0/MIChatBot/bin/Release/net9.0/publish/
+cp -r MiWeb2.0/MIChatBot/bin/Release/net9.0/publish/ /var/www/App
 
 echo "📂 6. Entrando al directorio de despliegue"
 cd App/publish/ || exit 1
