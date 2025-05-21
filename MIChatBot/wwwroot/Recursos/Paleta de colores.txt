@@ -1,0 +1,11 @@
+#2a3535 – Verde grisáceo oscuro
+
+#000101 – Negro casi puro
+
+#0294c2 – Azul celeste intenso
+
+#101a1b – Gris muy oscuro
+
+#094357 – Azul petróleo profundo
+
+#0d7193 – Azul oceánico medio
