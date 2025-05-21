@@ -74,7 +74,6 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticweb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\MIChatBot.csproj.Up2Date
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\MIChatBot.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\refint\MIChatBot.dll
