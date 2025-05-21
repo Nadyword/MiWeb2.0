@@ -1,5 +1,0 @@
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Release\net9.0\linux-x64\PubTmp\Out\appsettings.Development.json
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Release\net9.0\linux-x64\PubTmp\Out\appsettings.json
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Release\net9.0\linux-x64\PubTmp\Out\appsettings.Production.json
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Release\net9.0\linux-x64\PubTmp\Out\Bot-Api.pdb
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Bot-Api\obj\Release\net9.0\linux-x64\PubTmp\Out\Bot-Api

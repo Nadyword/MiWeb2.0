@@ -731,7 +731,7 @@ img {
     -webkit-backdrop-filter: blur(10px);
     box-shadow: var(--shadow-sm);
     z-index: 1000;
-    padding: px 0;
+    padding: 0px 0;
     transition: var(--transition);
 }
 

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Bot-Api.props" />
-</Project>
