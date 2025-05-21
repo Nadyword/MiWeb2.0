@@ -80,3 +80,4 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\refint\MI
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\MIChatBot.pdb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\MIChatBot.genruntimeconfig.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\ref\MIChatBot.dll
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\MIChatBot\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

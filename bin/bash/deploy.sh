@@ -22,4 +22,4 @@ echo "🔓 7. Dando permisos de ejecución al binario"
 chmod +x MIChatBot
 
 echo "🚀 8. Ejecutando la aplicación en entorno Production"
-./MIChatBot
+sudo reboot
