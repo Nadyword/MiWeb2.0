@@ -13,13 +13,13 @@ echo "🧹 4. Eliminando versión anterior publicada"
 rm -rf App/publish/
 
 echo "📁 5. Copiando nueva publicación a carpeta final"
-cp -r MiWeb2.0/Bot-Api/bin/Release/net9.0/publish/ App/
+cp -r MiWeb2.0/MIChatBot/bin/Release/net9.0/publish/
 
 echo "📂 6. Entrando al directorio de despliegue"
 cd App/publish/ || exit 1
 
 echo "🔓 7. Dando permisos de ejecución al binario"
-chmod +x Bot-Api
+chmod +x MIChatBot
 
 echo "🚀 8. Ejecutando la aplicación en entorno Production"
-./Bot-Api
+./MIChatBot
