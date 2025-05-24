@@ -51,19 +51,15 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.4, )"
-            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.5, )",
               "autoReferenced": true
             },
-            "Swashbuckle.AspNetCore": {
+            "Npgsql": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
