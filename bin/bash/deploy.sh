@@ -21,5 +21,6 @@ cd App/publish/ || exit 1
 echo "🔓 7. Dando permisos de ejecución al binario"
 chmod +x MIChatBot
 
-echo "🚀 8. Ejecutando la aplicación en entorno Production"
-sudo reboot
+echo "🚀 8. Reiniciando la apliacion"
+systemctl stop bot-api.service
+systemctl start bot-api.service
