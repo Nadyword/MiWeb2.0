@@ -24,10 +24,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -59,3 +55,15 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-n7iqak707h
+
+[C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/Pages/Calendar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWxlbmRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-v61h7bnvu0
+
+[C:/Users/samue/Documents/Proyectos/MiWeb2.0/MIChatBot/Components/Pages/CalendarGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWxlbmRhckdyaWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2m7ktfyn4i
