@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MIChatBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2953765b1d019d5b3d915eaa8970410cc7ff6a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d35a2941161a4d8fe3664392a808dfb5b3048e74")]
 [assembly: System.Reflection.AssemblyProductAttribute("MIChatBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MIChatBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
