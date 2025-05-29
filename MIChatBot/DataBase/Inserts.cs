@@ -10,7 +10,7 @@ namespace MIChatBot.DataBase
     {
         public async Task<int> InsertPruebaAsync(string ClientId, string Texto)
         {
-            using var connection = await GetConnection(ClientId);
+            using IDbConnection connection = await GetConnection(ClientId);
 
             using NpgsqlCommand command = (NpgsqlCommand)connection.CreateCommand();
             command.CommandText = $"INSERT INTO Pruebas (Texto) VALUES ('{Texto}')";

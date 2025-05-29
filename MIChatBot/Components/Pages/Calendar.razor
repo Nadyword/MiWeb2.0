@@ -13,12 +13,12 @@
                 DateTime fecha = DateTime.Now.AddDays(i);
                 string dia = fecha.ToString("dddd", new System.Globalization.CultureInfo("es-ES"));
                 string mes = fecha.ToString("MMMM", new System.Globalization.CultureInfo("es-ES"));
-                <CalendarGrid dayName=@dia dayNumber=fecha.Day monthName=@mes activityCount=3 IsToday=@(i == 0 ? "today" : "")/>
+                <CalendarGrid dayName=@dia dayNumber=fecha.Day monthName=@mes activityCount=3 IsToday=@(i == 0 ? "today" : "") />
             }
         </div>
     </div>
 </div>
 
 @code {
-    
+
 }

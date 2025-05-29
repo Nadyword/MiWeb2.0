@@ -53,7 +53,7 @@ export default function About() {
                         Mi Historia
                     </h3>
                     <p className="text-muted-foreground">
-                        Soy un desarrollador Full Stack con más de 5 años de experiencia creando aplicaciones web modernas y
+                        Soy un desarrollador Full Stack con más de 4 años de experiencia creando aplicaciones web modernas y
                         escalables. Mi pasión por la tecnología comenzó desde temprana edad y he dedicado mi carrera a perfeccionar
                         mis habilidades en el desarrollo web.
                     </p>

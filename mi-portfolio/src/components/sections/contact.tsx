@@ -28,12 +28,8 @@ export default function Contact() {
         e.preventDefault();
 
         const { name, email, message } = formData;
-
-        // Construir el mensaje para WhatsApp
         const whatsappMessage = `Hola, soy ${name}. Mi correo es ${email}. Quiero hablar sobre: ${message}`;
-
-        // Número de teléfono al que se enviará el mensaje (incluye el código de país)
-        const phoneNumber = "584241325210"; // Ejemplo: +58 424-132-52-10
+        const phoneNumber = "584142735979"; 
 
         // Redirigir al enlace de WhatsApp
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;

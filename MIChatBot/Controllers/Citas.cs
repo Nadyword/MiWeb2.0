@@ -16,5 +16,12 @@ namespace MIChatBot.Controllers
             return Ok(result);
         }
 
+        [HttpGet("Citas/")]
+        public async Task<IActionResult> GatCitas([FromBody] RequestBot<Cita> requestBot)
+        {
+            int result = await InsertarCita(requestBot);
+            return Ok(result);
+        }
+
     }
 }

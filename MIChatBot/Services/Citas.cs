@@ -11,4 +11,11 @@ public partial class Citas
         int result = await inserts.InsertCitaAsync(request);
         return result;
     }
+
+    private async Task<int> GetCitas(RequestBot<Cita> request)
+    {
+        Inserts inserts = new(_config);
+        int result = await inserts.InsertCitaAsync(request);
+        return result;
+    }
 }
