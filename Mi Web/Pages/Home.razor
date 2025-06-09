@@ -1,0 +1,445 @@
+﻿@inject IJSRuntime JS
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="#inicio">
+                <img src="Imag/Logo.png" alt="Solutions Softwares Logo" class="logo-img">
+            </a>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-item">
+                <a href="#inicio" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#servicios" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a href="#valores" class="nav-link">Valores</a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </li>
+            <li class="nav-item nav-cta">
+                <a href="#contacto" class="nav-link-cta">Comenzar Proyecto</a>
+            </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="inicio" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Transformamos Ideas en Soluciones Digitales</h1>
+            <p class="hero-subtitle">Desarrollamos aplicaciones web personalizadas que impulsan el crecimiento de tu empresa y optimizan tus procesos diarios</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Comenzar Proyecto</a>
+                <a href="#servicios" class="btn btn-secondary">Conocer Servicios</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-card card-1">
+                <div class="card-icon">💻</div>
+                <h4>Desarrollo Web</h4>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-icon">📱</div>
+                <h4>Apps Móviles</h4>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-icon">⚡</div>
+                <h4>Optimización</h4>
+            </div>
+            <div class="floating-card card-4">
+                <div class="card-icon">⚙️</div>
+                <h4>Automatización</h4>
+            </div>
+            <div class="floating-card card-5">
+                <div class="card-icon">🚀</div>
+                <h4>Performance</h4>
+            </div>
+            <div class="floating-card card-6">
+                <div class="card-icon">🔒</div>
+                <h4>Seguridad</h4>
+            </div>
+            <div class="floating-card card-7">
+                <div class="card-icon">📊</div>
+                <h4>Analytics</h4>
+            </div>
+            <div class="floating-card card-8">
+                <div class="card-icon">🤖</div>
+                <h4>Chatbot</h4>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="servicios" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Soluciones tecnológicas integrales para hacer crecer tu negocio</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-delay="0">
+                <div class="service-icon">
+                    <div class="icon-bg">🌐</div>
+                </div>
+                <h3>Desarrollo Web Personalizado</h3>
+                <p>Creamos aplicaciones web a medida que se adaptan perfectamente a las necesidades específicas de tu empresa.</p>
+                <ul class="service-features">
+                    <li>Diseño responsive</li>
+                    <li>Tecnologías modernas</li>
+                    <li>SEO optimizado</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-delay="200">
+                <div class="service-icon">
+                    <div class="icon-bg">📊</div>
+                </div>
+                <h3>Sistemas de Gestión</h3>
+                <p>Desarrollamos sistemas que automatizan y optimizan los procesos internos de tu organización.</p>
+                <ul class="service-features">
+                    <li>Automatización de procesos</li>
+                    <li>Reportes en tiempo real</li>
+                    <li>Integración con APIs</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-delay="400">
+                <div class="service-icon">
+                    <div class="icon-bg">🚀</div>
+                </div>
+                <h3>Asesoría Tecnológica</h3>
+                <p>Te ayudamos a implementar soluciones digitales que aumenten la eficiencia operativa de tu empresa.</p>
+                <ul class="service-features">
+                    <li>Análisis de necesidades</li>
+                    <li>Estrategia digital</li>
+                    <li>Soporte continuo</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-delay="400">
+                <div class="service-icon">
+                    <div class="icon-bg">🤖</div>
+                </div>
+                <h3>ChatBot con IA (Asistente virtual)</h3>
+                <p>Chatbot o asistente virtual excelente para automatizar tu negocio excelente para atender clientes agendar citas, atender reclamos, ¡¡tú decides que puede hacer!!</p>
+                <ul class="service-features">
+                    <li>Respuestas rápidas y efectivas</li>
+                    <li>Activo 24/7</li>
+                    <li>Soporte continuo</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-delay="400">
+                <div class="service-icon">
+                    <div class="icon-bg">💻</div>
+                </div>
+                <h3>Desarrollo desktop</h3>
+                <p>Creamos aplicaciones de escritorios Windows a medida que se adaptan perfectamente a las necesidades específicas de tu empresa.</p>
+                <ul class="service-features">
+                    <li>Instalación fácil</li>
+                    <li>Para cualquier PC con Windows</li>
+                    <li>100% efectiva</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-delay="400">
+                <div class="service-icon">
+                    <div class="icon-bg">📈</div>
+                </div>
+                <h3>Optimización y mejoras de sistemas existentes</h3>
+                <p>Si ya tienes un sistema y requiero optimizarlo en algún aspecto, aquí estamos para sacarle el máximo proveyó a tu sistema</p>
+                <ul class="service-features">
+                    <li>Optimización de seguridad</li>
+                    <li>Optimización de rendimiento</li>
+                    <li>Optimización de productividad</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Values Section -->
+<section id="valores" class="values">
+    <div class="container">
+        <div class="values-content">
+            <div class="values-text">
+                <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+                <div class="value-item" data-aos="slide-right" data-delay="0">
+                    <div class="value-number">01</div>
+                    <div class="value-content">
+                        <h3>Experiencia Comprobada</h3>
+                        <p>Más de 5 años desarrollando soluciones web exitosas para empresas de diversos sectores.</p>
+                    </div>
+                </div>
+                <div class="value-item" data-aos="slide-right" data-delay="200">
+                    <div class="value-number">02</div>
+                    <div class="value-content">
+                        <h3>Enfoque Personalizado</h3>
+                        <p>Cada proyecto es único. Adaptamos nuestras soluciones a las necesidades específicas de tu negocio.</p>
+                    </div>
+                </div>
+                <div class="value-item" data-aos="slide-right" data-delay="400">
+                    <div class="value-number">03</div>
+                    <div class="value-content">
+                        <h3>Garantía</h3>
+                        <p>Te damos una garantía del correcto funcionamiento del desarrollo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="values-visual" data-aos="fade-left">
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="43">0</div>
+                        <div class="stat-label">Proyectos Completados</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">Soporte 24/7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonios" class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Lo que dicen algunos de nuestros clientes</h2>
+            <p class="section-subtitle">Testimonios reales de empresas que han transformado su negocio con nosotros</p>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial-track" id="testimonial-track">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Solutions Softwares transformó completamente nuestros procesos internos. La aplicación web que desarrollaron nos ha permitido aumentar nuestra eficiencia en un 40%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AC</div>
+                        <div class="author-info">
+                            <h4>Adelis Cubillan</h4>
+                            <span>CEO, Administradora Ayirca</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★</div>
+                        <p>"El equipo de Solutions Softwares no solo entregó un producto excepcional, sino que también nos brindó asesoría estratégica invaluable para nuestro crecimiento digital."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>Jake Domingo</h4>
+                            <span>Director, NeuralApp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Profesionalismo, calidad y atención al detalle. Nuestro sistema de gestión funciona perfectamente y ha revolucionado la forma en que trabajamos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">OS</div>
+                        <div class="author-info">
+                            <h4>Oriana Sánchez</h4>
+                            <span>Gerente, Estética Laos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★</div>
+                        <p>"La plataforma de gestión opera sin fallos y ha marcado un antes y un después en nuestra forma de operar."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">OS</div>
+                        <div class="author-info">
+                            <h4>Angelica Signorino</h4>
+                            <span>CEO, Signorino Esthetic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Solutions Softwares no solo cumplió con un producto de alta calidad, sino que también fue un socio estratégico fundamental para impulsar nuestra expansión digital."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JR</div>
+                        <div class="author-info">
+                            <h4>Juan Rodríguez</h4>
+                            <span>CEO, La Forja SPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev" id="prev-btn">‹</button>
+                <div class="testimonial-dots" id="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                </div>
+                <button class="testimonial-btn next" id="next-btn">›</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contacto" class="contact">
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2 class="section-title">¿Listo para Comenzar?</h2>
+                <p class="contact-description">Cuéntanos sobre tu proyecto y descubre cómo podemos ayudarte a alcanzar tus objetivos digitales.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contacto@solutions-softwares.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+58 424-2653702</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Miranda, Venezuela</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" @bind-value="EmailCliente" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Servicio de Interés</label>
+                    <select id="service" name="service" @bind="Servico" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="desarrollo-web">Desarrollo Web</option>
+                        <option value="sistemas-gestion">Sistemas de Gestión</option>
+                        <option value="asesoria">Asesoría Tecnológica</option>
+                        <option value="bot">Chat-bot</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" @bind="Mensaje" required></textarea>
+                </div>
+                <button @onclick="IrWhatsApp" type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Solutions Softwares</h3>
+                <p>Transformamos ideas en soluciones digitales que impulsan el crecimiento de tu empresa.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/solutions.softwares" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Servicios</h4>
+                <ul class="footer-links">
+                    <li><a href="#servicios">Desarrollo Web</a></li>
+                    <li><a href="#servicios">Sistemas de Gestión</a></li>
+                    <li><a href="#servicios">Asesoría Tecnológica</a></li>
+                    <li><a href="#servicios">Mantenimiento</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <div class="footer-contact">
+                    <p>📧 contacto@solutions-softwares.com</p>
+                    <p>📱 +58 424-2653702</p>
+                    <p>📍 Miranda, Venezuela</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2020 Solutions Softwares. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="back-to-top">↑</button>
+
+
+@code {
+    [Parameter]
+    public string EmailCliente { get; set; } = "";
+    [Parameter]
+    public string Servico { get; set; } = "";
+    [Parameter]
+    public string Mensaje { get; set; } = "";
+
+    private string MensajePorHora()
+    {
+        int hora = DateTime.Now.Hour;
+        if (hora >= 6 && hora < 12)
+            return "¡Buenos días!";
+        else if (hora >= 12 && hora < 18)
+            return "¡Buenas tardes!";
+        else
+            return "¡Buenas noches!";
+    }
+
+    private async Task IrWhatsApp(MouseEventArgs e)
+    {
+        string mensaje = $"{MensajePorHora()} Estoy interesado en un servicio de {Servico} \n\n {Mensaje} \n\n Contacto:{EmailCliente}";
+        string url = $"https://wa.me/584242653702?text={Uri.EscapeDataString(mensaje)}";
+
+        await JS.InvokeVoidAsync("open", url, "_blank");
+    }
+
+    private IJSObjectReference? _module;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "/js/home.js");
+            await _module.InvokeVoidAsync("initHomeAnimations");
+        }
+    }
+}
