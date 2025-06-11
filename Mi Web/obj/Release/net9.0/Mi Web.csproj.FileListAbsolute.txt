@@ -199,8 +199,6 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_f
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.v6ntlopd0d.wasm
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.bhus9py5xe.pdb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\service-worker.js
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\service-worker-assets.js
@@ -405,8 +403,6 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_f
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.v6ntlopd0d.wasm.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.bhus9py5xe.pdb.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\service-worker.js.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\service-worker-assets.js.gz
@@ -1075,11 +1071,6 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\vqdoyng224-tjcz0u77k5.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\1penyp1hs2-tptq2av103.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\3cuv067183-lfu7j35m59.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-v6ntlopd0d.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-bhus9py5xe.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-nymqxtqo3k.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\84jxr2l4ka-hzkqu0lotj.gz
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-1zbp80rzip.gz
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\staticwebassets.development.json
@@ -1090,3 +1081,12 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\Mi Web.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\refint\Mi Web.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\Mi Web.pdb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\ref\Mi Web.dll
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.voqtz4gd8c.wasm
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.0n5vokf5d4.pdb
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.voqtz4gd8c.wasm.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.0n5vokf5d4.pdb.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-voqtz4gd8c.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-0n5vokf5d4.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-d75ik7d52l.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\84jxr2l4ka-m0mcvr5gii.gz
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-haxtlf5vgu.gz
