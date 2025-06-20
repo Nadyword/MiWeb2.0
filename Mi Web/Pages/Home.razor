@@ -438,7 +438,7 @@
     {
         if (firstRender)
         {
-            _module = await JS.InvokeAsync<IJSObjectReference>("import", "/js/home.js");
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "/js/Inicio.js");
             await _module.InvokeVoidAsync("initHomeAnimations");
         }
     }

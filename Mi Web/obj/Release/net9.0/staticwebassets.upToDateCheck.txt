@@ -8,7 +8,7 @@ wwwroot\Imag\Logo sin fondo.png
 wwwroot\Imag\Logo-sin-fondos.svg
 wwwroot\Imag\Logo.png
 wwwroot\index.html
-wwwroot\js\home.js
+wwwroot\js\Inicio.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,7 +61,7 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\favicon.ico
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\Imag\Logo icono.ico
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\Imag\Logo-sin-fondos.svg
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\index.html
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\js\home.js
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\js\Inicio.js
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
