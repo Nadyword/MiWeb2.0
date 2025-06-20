@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "ZcS1GYyk",
+  "version": "uuwB14BO",
   "assets": [
     {
       "hash": "sha256-TCGoehUVaek1PzLYNCHSfcrMivKRTjOC2jA3SzPReF4=",
@@ -46,8 +46,8 @@ self.assetsManifest = {
       "url": "StaticPage/Chatbot.js"
     },
     {
-      "hash": "sha256-imz/V2ih+OfAw+dKro2vIN3Rj6glDrO1zkKDybPJ2cI=",
-      "url": "_framework/Mi Web.y5ernznze4.wasm"
+      "hash": "sha256-PtlXzbKPI9j5+38luVpYQ2+lx9ya0alr5jJTR5vRVJY=",
+      "url": "_framework/Mi Web.mf9gfh0hxx.wasm"
     },
     {
       "hash": "sha256-1dlLfKlX5dGAWW49GAv91c5w/rB5E3a1UCwVaoY9WXo=",
@@ -174,7 +174,7 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.3zydt3n8n9.wasm"
     },
     {
-      "hash": "sha256-Gk8f7ByW9al6aF31WcnqedwgSNd2o/lTDBREs7sxMFE=",
+      "hash": "sha256-aukg3XucbjxtakJtxKS01Y3OWiHtzhkedgC4gNZXXNI=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -223,7 +223,7 @@ self.assetsManifest = {
     },
     {
       "hash": "sha256-z2OSFkunQ5PoFU6xvRqhBc8cZjtSLRgeSHFlN7m9B4M=",
-      "url": "js/Home.js"
+      "url": "js/home.js"
     },
     {
       "hash": "sha256-f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ=",

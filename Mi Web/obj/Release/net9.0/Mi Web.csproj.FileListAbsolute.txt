@@ -2588,12 +2588,8 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\ww
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.y5ernznze4.wasm
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mv0ga1xw4i.pdb
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\service-worker-assets.js
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.y5ernznze4.wasm.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mv0ga1xw4i.pdb.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\blazor.boot.json.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\service-worker-assets.js.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\Mi Web.staticwebassets.runtime.json
@@ -3015,7 +3011,6 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\co
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\hl8kpxfzmk-b3f3p3ym03.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\l1ibmyhhdt-z21vcov5gv.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\v94i6wsw1d-8lu91nh4ds.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\dd0x8s7fgg-x8z7maboiz.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\3nzy1ndziy-t1cqhe9u97.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\xl756hesqr-c2jlpeoesf.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\fifaav1one-sejl45xvog.gz
@@ -3266,10 +3261,6 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\co
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\vqdoyng224-tjcz0u77k5.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\1penyp1hs2-tptq2av103.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\3cuv067183-lfu7j35m59.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-y5ernznze4.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-mv0ga1xw4i.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-tly16pohp0.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-ad1k6mbrmm.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\staticwebassets.build.json
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\staticwebassets.build.json.cache
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\staticwebassets.development.json
@@ -3280,3 +3271,12 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\Mi
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\refint\Mi Web.dll
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\Mi Web.pdb
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\ref\Mi Web.dll
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mf9gfh0hxx.wasm
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.km3txzmsq9.pdb
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mf9gfh0hxx.wasm.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.km3txzmsq9.pdb.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\p361pglkpt-x8z7maboiz.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-mf9gfh0hxx.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-km3txzmsq9.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-6yv53us9br.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-p9bei649w1.gz
