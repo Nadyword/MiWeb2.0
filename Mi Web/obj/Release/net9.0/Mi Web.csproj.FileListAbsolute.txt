@@ -3271,12 +3271,12 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\Mi
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\refint\Mi Web.dll
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\Mi Web.pdb
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\ref\Mi Web.dll
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mf9gfh0hxx.wasm
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.km3txzmsq9.pdb
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.mf9gfh0hxx.wasm.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.km3txzmsq9.pdb.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\p361pglkpt-x8z7maboiz.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-mf9gfh0hxx.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-km3txzmsq9.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-6yv53us9br.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-p9bei649w1.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.hoy7kurafp.wasm
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.4pxcpmivwz.pdb
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.hoy7kurafp.wasm.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Release\net9.0\wwwroot\_framework\Mi Web.4pxcpmivwz.pdb.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\zicnb7hteo-hoy7kurafp.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\9317sg74x7-4pxcpmivwz.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\ucct6hx5xn-s6wnj9cc1k.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Release\net9.0\compressed\t9z6ld1wpj-1qppwdfonk.gz
