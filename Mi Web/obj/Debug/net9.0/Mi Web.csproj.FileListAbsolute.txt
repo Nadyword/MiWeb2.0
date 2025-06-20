@@ -3262,16 +3262,16 @@ C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\Mi W
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\ref\Mi Web.dll
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\v94i6wsw1d-8lu91nh4ds.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\dd0x8s7fgg-x8z7maboiz.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.doxcqfbtfr.wasm
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.t92lmfsiug.pdb
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.doxcqfbtfr.wasm.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.t92lmfsiug.pdb.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\kv7lbagcwm-aq4n3nr887.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\3myxjyqk5r-aq4n3nr887.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\zicnb7hteo-doxcqfbtfr.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\9317sg74x7-t92lmfsiug.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\ucct6hx5xn-pwk6zs0t62.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\oi86rhs9o2-tn55x50e6s.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\yehgbg2lo2-4zxgrdnkje.gz
 C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\3m17zlhk6w-hf0h1hwwu0.gz
-C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\t9z6ld1wpj-ubfgn4c2ub.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.ypldsj29y6.wasm
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.4va9om2ii3.pdb
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.ypldsj29y6.wasm.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\bin\Debug\net9.0\wwwroot\_framework\Mi Web.4va9om2ii3.pdb.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\yehgbg2lo2-tgrrjgef2h.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\zicnb7hteo-ypldsj29y6.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\9317sg74x7-4va9om2ii3.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\ucct6hx5xn-34b8csoz4w.gz
+C:\Users\samue\OneDrive\Documentos\Proyectos\Mi Web\Mi Web\obj\Debug\net9.0\compressed\t9z6ld1wpj-lrf5my05zt.gz
