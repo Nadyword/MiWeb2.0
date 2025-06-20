@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Mi Web",
   "resources": {
-    "hash": "sha256-QiU3N89x1KaBotmc79+PjLaVBB6gXCrS2EeNiRqLPY8=",
+    "hash": "sha256-ZAw3H57KqoCfoNMoUR4ds9skkVdq8UDuHYK5TPIa7yY=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.waskkzx0nn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Mi Web.2aa8aghi13.wasm": "Mi Web.wasm",
-      "Mi Web.rp44upvsqc.pdb": "Mi Web.pdb"
+      "Mi Web.y5ernznze4.wasm": "Mi Web.wasm",
+      "Mi Web.mv0ga1xw4i.pdb": "Mi Web.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.rtblh4npr3.js": "sha256-HyBzcYNpT2l19+f1bpjNOa1oFoLe3K4JIQ6GsFK5m6I="
@@ -412,10 +412,10 @@
       "WindowsBase.pe1q66fox7.wasm": "sha256-X+jubl681x6U1UjhhKVz+cjOvMv1wDBWIyyFenqJnPc=",
       "mscorlib.ypkr78tz1c.wasm": "sha256-Wkc7KpMw/bTWNoLCRv9T8olIOmCpEiJSeUZsUQEnwrA=",
       "netstandard.ifx8vojh9u.wasm": "sha256-PqpRCbO73PFsE8ik5zmAuG1kKax3c7bGhjOOeuiUcyY=",
-      "Mi Web.2aa8aghi13.wasm": "sha256-CgD+GKVNYkADxiWqFg+43wFDcnQTduGg5DGWEIhCx+o="
+      "Mi Web.y5ernznze4.wasm": "sha256-imz/V2ih+OfAw+dKro2vIN3Rj6glDrO1zkKDybPJ2cI="
     },
     "pdb": {
-      "Mi Web.rp44upvsqc.pdb": "sha256-38IpCW7RY6AdzIYy4LVg6g8w+DKDS7PY34sf2Y6bzGI="
+      "Mi Web.mv0ga1xw4i.pdb": "sha256-jpl0/+SyRQyJARD+v7d1vX09Sk++8yNXYQzESyMloL8="
     }
   },
   "cacheBootResources": true,

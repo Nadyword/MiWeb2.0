@@ -16,4 +16,14 @@
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Layout\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\StaticPage\ChatBot.html" />
+    <None Include="wwwroot\StaticPage\Chatbot.js" />
+    <None Include="wwwroot\StaticPage\Chatbot.css" />
+  </ItemGroup>
+
 </Project>

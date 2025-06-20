@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mi Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec8f5a14077d87ac80694e2c22442e3f4227d393")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c61b7eb5bbb13972b42b4bffc79b2bd7ddf0b41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mi Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mi Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

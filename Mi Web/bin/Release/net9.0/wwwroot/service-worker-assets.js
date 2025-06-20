@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "DNIPaEO8",
+  "version": "5lAeWKZt",
   "assets": [
     {
       "hash": "sha256-TCGoehUVaek1PzLYNCHSfcrMivKRTjOC2jA3SzPReF4=",
@@ -30,16 +30,28 @@ self.assetsManifest = {
       "url": "Imag/Logo.png"
     },
     {
-      "hash": "sha256-P2j02xWalEMHSjtUeCDoPVcyFrxuqkzG8UQy2SIJOMI=",
+      "hash": "sha256-ssbOy+LVDURSYWWqv4Fpseodr6lUrEFroEt/Omr4szE=",
       "url": "Mi Web.styles.css"
     },
     {
-      "hash": "sha256-CgD+GKVNYkADxiWqFg+43wFDcnQTduGg5DGWEIhCx+o=",
-      "url": "_framework/Mi Web.2aa8aghi13.wasm"
+      "hash": "sha256-M2m8ScFODi793B5Qm6hHPOevxvRbot9vgGz+Gc2q1S0=",
+      "url": "StaticPage/ChatBot.html"
     },
     {
-      "hash": "sha256-38IpCW7RY6AdzIYy4LVg6g8w+DKDS7PY34sf2Y6bzGI=",
-      "url": "_framework/Mi Web.rp44upvsqc.pdb"
+      "hash": "sha256-6SDE3DHtseYIzgc/wLIUsIEsjC0gzv+9EkcT3X9uu/w=",
+      "url": "StaticPage/Chatbot.css"
+    },
+    {
+      "hash": "sha256-k149S4COUcKInzfSewS3CP9TXPFHVsSygd9e9DUwaYI=",
+      "url": "StaticPage/Chatbot.js"
+    },
+    {
+      "hash": "sha256-jpl0/+SyRQyJARD+v7d1vX09Sk++8yNXYQzESyMloL8=",
+      "url": "_framework/Mi Web.mv0ga1xw4i.pdb"
+    },
+    {
+      "hash": "sha256-imz/V2ih+OfAw+dKro2vIN3Rj6glDrO1zkKDybPJ2cI=",
+      "url": "_framework/Mi Web.y5ernznze4.wasm"
     },
     {
       "hash": "sha256-bZI3l2tb4nrkmIrNiXtsJx0hK5NmMKjbxScyGppJRRc=",
@@ -798,7 +810,7 @@ self.assetsManifest = {
       "url": "_framework/WindowsBase.pe1q66fox7.wasm"
     },
     {
-      "hash": "sha256-ehGuGaO80zJvWFJfwX4IXEYSYlx+L98JqgMAN20HWog=",
+      "hash": "sha256-ce9pcCcYvBJP25dv5HwCfXXMqp/mVeh/bxTN0hgQXIE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -858,7 +870,7 @@ self.assetsManifest = {
       "url": "favicon.ico"
     },
     {
-      "hash": "sha256-eLxiw5O4MpZN/xKE0L20TFMjg99ibb1BizCbsWJeF58=",
+      "hash": "sha256-5I/UOQNQ7G+iobxwResdGv0t+x6fR4X0CePFc99bM0Y=",
       "url": "index.html"
     },
     {

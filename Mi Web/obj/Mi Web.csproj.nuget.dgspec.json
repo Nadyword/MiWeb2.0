@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samue\\Documents\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj": {}
+    "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samue\\Documents\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj": {
+    "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samue\\Documents\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
         "projectName": "Mi Web",
-        "projectPath": "C:\\Users\\samue\\Documents\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
+        "projectPath": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
         "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samue\\Documents\\Proyectos\\Mi Web\\Mi Web\\obj\\",
+        "outputPath": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
