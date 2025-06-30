@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Mi WebApi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

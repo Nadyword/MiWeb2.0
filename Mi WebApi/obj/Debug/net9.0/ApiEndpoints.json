@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Mi_WebApi.Controllers.Citas",
+    "Method": "CrearCita",
+    "RelativePath": "Citas/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mi_WebApi.Domain.Entities.Cita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mi_WebApi.Controllers.Testing",
+    "Method": "IsActive",
+    "RelativePath": "Testing/Activo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mi_WebApi.Controllers.Testing",
+    "Method": "IsActiveDataBase",
+    "RelativePath": "Testing/DataBase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Mi_WebApi.Domain.DTOs.RequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
