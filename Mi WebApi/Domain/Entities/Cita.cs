@@ -14,8 +14,6 @@ public class Cita : RequestDto
     public required string Nombre { get; set; }
     [Required(ErrorMessage = "Falta definir el apellido")]
     public required string Apellido { get; set; }
-    [Required(ErrorMessage = "Falta definiar el telefono")]
-    public required string Telefono { get; set; }
     [Required(ErrorMessage = "Falta definiar la plataforma")]
     public required string Plataforma { get; set; }
     [Required(ErrorMessage = "Falta definir la fecha y hora de la cita")]
@@ -27,7 +25,6 @@ public class Cita : RequestDto
         [
             new NpgsqlParameter("p_nombre", NpgsqlDbType.Varchar) { Value = this.Nombre },
             new NpgsqlParameter("p_apellido", NpgsqlDbType.Varchar) { Value = this.Apellido },
-            new NpgsqlParameter("p_telefono", NpgsqlDbType.Varchar) { Value = this.Telefono},
             new NpgsqlParameter("p_plataforma", NpgsqlDbType.Varchar) { Value = this.Plataforma},
             new NpgsqlParameter("p_fecha_hora", NpgsqlDbType.Timestamp) { Value = this.FechaHora },
         ];
