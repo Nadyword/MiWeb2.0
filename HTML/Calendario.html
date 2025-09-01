@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Interactivo</title>
+    <link rel="stylesheet" href="Calendario.css">
+</head>
+<body>
+    <!-- Pantalla de Login -->
+    <div id="login-container">
+        <div class="login-box">
+            <h2>🗓️ Mi Calendario Personal</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn-login">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Aplicación del Calendario -->
+    <div id="calendar-app" style="display: none;">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>🗓️ Mi Calendario Interactivo</h1>
+            <button id="logout-btn" class="btn-logout">Cerrar Sesión</button>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main class="main-content">
+            <!-- Sección del Calendario -->
+            <section class="calendar-section">
+                <div class="calendar-controls">
+                    <button id="prev-month" class="btn-nav">‹</button>
+                    <h2 id="month-year">Enero 2025</h2>
+                    <button id="next-month" class="btn-nav">›</button>
+                </div>
+                
+                <div class="calendar-grid" id="calendar-grid">
+                    <div class="day-header">Dom</div>
+                    <div class="day-header">Lun</div>
+                    <div class="day-header">Mar</div>
+                    <div class="day-header">Mié</div>
+                    <div class="day-header">Jue</div>
+                    <div class="day-header">Vie</div>
+                    <div class="day-header">Sáb</div>
+                    <!-- Los días se generarán dinámicamente aquí -->
+                </div>
+            </section>
+
+            <!-- Sección de Eventos -->
+            <section class="events-section">
+                <h3 id="selected-date">Selecciona un día</h3>
+                <div id="events-container" class="events-list">
+                    <p class="no-events-message">Haz clic en un día para ver los eventos</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal para detalles del evento -->
+    <div id="event-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Detalles del Evento</h3>
+                <span class="modal-close" id="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="event-detail">
+                    <strong>📅 Fecha:</strong>
+                    <span id="modal-date"></span>
+                </div>
+                <div class="event-detail">
+                    <strong>🕐 Hora:</strong>
+                    <span id="modal-time"></span>
+                </div>
+                <div class="event-detail">
+                    <strong>📝 Descripción:</strong>
+                    <span id="modal-description"></span>
+                </div>
+                <div class="event-detail">
+                    <strong>📍 Ubicación:</strong>
+                    <span id="modal-location"></span>
+                </div>
+                <div class="event-detail">
+                    <strong>👥 Participantes:</strong>
+                    <span id="modal-participants"></span>
+                </div>
+                <div class="event-detail">
+                    <strong>📋 Notas:</strong>
+                    <span id="modal-notes"></span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="edit-event" class="btn-edit">Editar</button>
+                <button id="delete-event-modal" class="btn-delete">Eliminar</button>
+                <button id="close-modal-btn" class="btn-close">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Calendario.js"></script>
+</body>
+</html>

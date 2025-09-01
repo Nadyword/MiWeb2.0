@@ -1763,11 +1763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
+      "projectUniqueName": "C:\\Users\\samue\\Documents\\Proyectos\\MiWeb2.0\\Mi Web\\Mi Web.csproj",
       "projectName": "Mi Web",
-      "projectPath": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\Mi Web.csproj",
+      "projectPath": "C:\\Users\\samue\\Documents\\Proyectos\\MiWeb2.0\\Mi Web\\Mi Web.csproj",
       "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samue\\OneDrive\\Documentos\\Proyectos\\Mi Web\\Mi Web\\obj\\",
+      "outputPath": "C:\\Users\\samue\\Documents\\Proyectos\\MiWeb2.0\\Mi Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1840,17 +1840,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[9.0.6, 9.0.6]"
-          }
-        ],
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     },

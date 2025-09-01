@@ -1,0 +1,227 @@
+﻿### ✅ Preguntas y respuestas actualizadas (sin precios ni cotizaciones)
+
+¿Qué servicios ofrecen?
+→ Desarrollamos software a medida, automatizamos procesos empresariales, creamos páginas web y diseñamos chatbots inteligentes para WhatsApp e Instagram.
+
+¿Dónde están ubicados?
+→ Estamos en Los Teques, Miranda, Venezuela. Nuestra oficina principal se encuentra en el Centro Comercial Vasconia, sector El Tambor.
+
+¿Cuál es su horario de atención?
+→ Ofrecemos atención 24/7, todos los días del año.
+
+¿Ofrecen atención personalizada?
+→ Sí, cada proyecto es único y trabajamos de forma completamente personalizada para adaptarnos a tus necesidades.
+
+¿Puedo agendar una reunión?
+→ Claro que sí. Podemos agendar por WhatsApp, llamada o videollamada, según prefieras.
+
+¿Tienen ejemplos de proyectos realizados?
+→ Sí, aquí puedes ver algunos:
+🔗 solutions-softwares.com
+🔗 webapps-classroomliveweb.com
+🔗 tqmuch.com
+
+¿Cómo puedo ponerme en contacto?
+→ Puedes agendar una cita con nosotros o escribirnos directamente por WhatsApp o correo.
+
+¿Tienen políticas de privacidad?
+→ No contamos con una política propia publicada, pero garantizamos la confidencialidad de tus datos. Adaptamos los términos a lo que el cliente solicite.
+
+¿Ofrecen soporte técnico?
+→ Sí. Es gratuito durante el desarrollo y la garantía. Luego, puede contratarse como servicio adicional.
+
+¿Trabajan con clientes internacionales?
+→ Sí, trabajamos con clientes de cualquier parte del mundo sin importar la ubicación.
+
+¿Ofrecen asesoría antes de contratar?
+→ Sí. Brindamos asesoría gratuita para ayudarte a definir tu proyecto antes de contratar.
+
+¿Cuánto tiempo tienen en el mercado?
+→ La empresa comenzó operaciones el 01/06/2025, pero nuestro equipo cuenta con más de 7 años de experiencia.
+
+¿Qué los diferencia de otras empresas?
+→ Transparencia, compromiso total, soporte real y garantía incluida en cada entrega.
+
+¿Hacen software a medida?
+→ Sí, desarrollamos exactamente lo que necesitas, adaptado a tus procesos.
+
+¿Qué tipo de sistemas desarrollan?
+→ Sistemas web, de escritorio y próximamente móviles.
+
+¿Qué tecnologías utilizan?
+→ C#, Blazor, HTML, CSS, JavaScript, SQL Server, PostgreSQL, Docker, AWS, Azure, Ubuntu, Nginx, entre otras.
+
+¿Pueden integrar sistemas existentes?
+→ Sí, siempre que el sistema permita integraciones o exponga su lógica.
+
+¿Puedo pedir cambios después de la entrega?
+→ Sí. Tienes 7 días tras la entrega para solicitar cambios sin costo adicional.
+
+¿Sus desarrollos incluyen garantía?
+→ Sí, todos nuestros proyectos tienen 2 meses de garantía tras la entrega final.
+
+¿Tendré acceso al código fuente?
+→ Sí, se entrega vía GitHub y también en archivo ZIP.
+
+¿Ofrecen mantenimiento continuo?
+→ Sí, como servicio adicional contratado después del período de garantía.
+
+¿Diseñan páginas web y tiendas online?
+→ Sí, incluyendo diseño responsive adaptable a móviles y tablets.
+
+¿Incluyen dominio y hosting?
+→ Gestionamos ambos servicios, pero el costo corre por cuenta del cliente.
+
+¿Puedo actualizar mi página web luego?
+→ Sí, nuestros sistemas permiten modificaciones y mejoras futuras.
+
+¿Qué es la automatización empresarial?
+→ Es la implementación de soluciones digitales que reducen tareas manuales repetitivas, mejorando la eficiencia operativa.
+
+¿Qué tareas pueden automatizar?
+→ Cualquier proceso digitalizable que no requiera intervención humana constante.
+
+¿Usan inteligencia artificial en sus desarrollos?
+→ Sí, cuando el proyecto lo amerita, aplicamos soluciones basadas en IA.
+
+¿Necesito conocimientos técnicos para usar lo que desarrollan?
+→ No. Diseñamos soluciones fáciles de usar, pensadas para cualquier tipo de usuario.
+
+¿Desarrollan chatbots para empresas?
+→ Sí, desarrollamos chatbots inteligentes para WhatsApp e Instagram, 100% personalizados según las necesidades de tu negocio.
+
+¿Qué puede hacer un chatbot?
+→ Puede responder preguntas frecuentes, agendar citas, brindar atención automática o incluso cerrar ventas. Esto aplica tanto para WhatsApp como para Instagram.
+
+¿El chatbot puede usar varios idiomas?
+→ Sí, puede configurarse en múltiples idiomas, ideal para audiencias internacionales.
+
+¿Aprende con el tiempo?
+→ Sí, si se implementa una base de datos o lógica adicional que permita aprendizaje y mejora continua.
+
+¿Puedo modificar el contenido del chatbot?
+→ Sí, puedes actualizar textos y respuestas fácilmente. Solo debes enviar la nueva información y soporte realizará los cambios.
+
+¿Tienen un chatbot demo?
+→ Sí, este mismo chatbot es un ejemplo funcional de lo que ofrecemos tanto para WhatsApp como para Instagram.
+
+¿Tienen contrato de servicio?
+→ Sí, antes de iniciar firmamos un contrato con todos los términos acordados.
+
+¿Cómo reporto un problema técnico?
+→ A través de un número de soporte exclusivo para nuestros clientes.
+
+¿Tienen soporte 24/7?
+→ Sí, brindamos soporte continuo en cualquier momento del día.
+
+¿Ofrecen mantenimiento después de la garantía?
+→ Sí, como servicio adicional según tus necesidades.
+
+¿Capacitan al equipo del cliente?
+→ Sí, ofrecemos capacitación para el uso del sistema desarrollado.
+
+¿Incluyen documentación técnica?
+→ Sí, está disponible con costo adicional reducido.
+
+¿Sus sistemas incluyen medidas de seguridad?
+→ Sí. Todos nuestros desarrollos incluyen autenticación segura, backups y cumplimiento con normativas básicas de seguridad.
+
+¿Puedo escalar mi sistema si mi empresa crece?
+→ Sí. Adaptamos el sistema a tus nuevas necesidades y lo reestructuramos si hace falta.
+
+¿Pueden posicionar mi web en Google?
+→ Actualmente no ofrecemos servicio SEO, pero podemos referirte profesionales.
+
+¿Desarrollan paneles de administración?
+→ Sí, totalmente personalizados y escalables.
+
+¿Pueden firmar un NDA?
+→ Sí, firmamos acuerdos de confidencialidad cuando el cliente lo requiere.
+
+¿Qué información necesitan para comenzar un proyecto?
+→ Es necesario agendar una reunión para conocer tus necesidades y definir requerimientos.
+
+¿Ofrecen soporte en inglés?
+→ Sí, atendemos en inglés y español.
+
+¿Qué pasa si quiero cancelar el proyecto a mitad del desarrollo?
+→ Se interrumpe el trabajo, y se entrega todo lo realizado hasta el momento, incluyendo archivos, cuentas y código fuente.
+
+¿Cuál es el proceso desde la contratación hasta la entrega?
+→
+
+1. Reunión inicial para entender tus necesidades
+2. Propuesta detallada con tiempos y fases
+3. Firma de contrato
+4. Desarrollo por etapas con retroalimentación continua
+5. Entrega final + garantía + (opcional) capacitación
+
+¿Qué sucede si aparecen errores después de la garantía?
+→ Evaluamos el caso y lo resolvemos, aunque fuera del período de garantía no se atiende de forma inmediata.
+
+¿Puedo migrar mi proyecto a otro servidor luego?
+→ Sí, tienes total libertad para mover tu sistema donde desees.
+
+¿Usan metodologías ágiles?
+→ Sí, trabajamos con metodologías ágiles y también tradicionales, según lo que el proyecto requiera.
+
+¿Puedo tener un solo chatbot que funcione tanto en WhatsApp como en Instagram?
+→ Por ahora, cada plataforma requiere su propia configuración, pero podemos crear experiencias similares y coherentes en ambas.
+
+¿El chatbot de Instagram puede responder historias o mensajes directos?
+→ Sí, puede responder mensajes directos y ciertos eventos automáticos. ¡Te ayudamos a configurarlo según tus objetivos!
+
+¿Puedo ver estadísticas del chatbot?
+→ Sí, ofrecemos reportes personalizados para que midas el rendimiento y comportamiento de tus usuarios.
+
+¿Puedo usar el chatbot para campañas de marketing?
+→ Claro. Podemos integrarlo con tu estrategia para captar leads, enviar promociones y más, tanto en WhatsApp como en Instagram.
+
+
+¿Qué diferencias hay entre un chatbot para WhatsApp y uno para Instagram?
+→ En esencia, ambos chatbots —tanto el de WhatsApp como el de Instagra utilizan inteligencia artificial para responder de forma natural, rápida y eficiente. La principal diferencia está en las capacidades de automatización que ofrece cada plataforma. WhatsApp permite automatizar respuestas dentro del chat, ideal para atención directa, agendamiento o soporte. Instagram, por su parte, ofrece más puntos de entrada y mayor interacción con las funciones propias de la plataforma. El chatbot puede activarse cuando el usuario: Comenta una publicación, Responde una historia, Envía un mensaje directo, Hace clic en un anuncio de Instagram, Comenta durante un en vivo, o accede desde un enlace de referencia. Esto permite automatizar procesos más diversos en Instagram, integrando el chatbot con acciones de marketing y contenido de manera más dinámica.
+
+¿El chatbot puede integrarse con un CRM o sistema externo?
+→ Sí, podemos integrar el chatbot con tu CRM o cualquier sistema que permita conexiones externas.
+
+¿Puedo ver un ejemplo funcional antes de contratar?
+→ Sí, este mismo chatbot es un ejemplo de lo que ofrecemos. Puedes interactuar con él para ver cómo funciona.
+
+¿El chatbot puede identificar si el cliente ya ha hablado antes?
+→ Sí, puede reconocer usuarios recurrentes y adaptar las respuestas según su historial de interacciones.
+
+¿Puedo editar las respuestas del bot luego de la entrega?
+→ Sí, puedes modificar las respuestas y contenido del chatbot fácilmente. Solo debes enviarnos los cambios y los implementamos.
+
+¿El chatbot puede enviar imágenes, botones o carruseles?
+→ Si, el chatbot puede enviar imágenes y carruseles de productos o servicios pero no botones interactivos.
+
+¿Qué pasa si alguien escribe algo que el bot no entiende?
+→ El chatbot puede redirigir la conversación a un agente humano o enviar una respuesta predeterminada para consultas no reconocidas.
+
+¿Cuántas conversaciones puede manejar al mismo tiempo?
+→ El chatbot puede manejar miles de conversaciones simultáneamente, dependiendo de la infraestructura y configuración.
+
+¿Cuánto tiempo tardan en entregar un chatbot básico?
+→ Dos dias hábiles para un chatbot básico en WhatsApp o Instagram.
+
+¿Puedo pausar el chatbot cuando quiera y atender manualmente?
+→Si, puedes desactivar el chatbot temporalmente y retomar la atención manual en cualquier momento, al interrumpir una conversación, el chatbot se detiene automáticamente para ese cliente en específico, y puedes retomar la conversación manualmente, despue de un momento de inactividad el chatbot se reactivará automáticamente.
+
+¿Puedo usar el chatbot con mi número personal de WhatsApp?
+→ Si
+
+¿El chatbot puede enviar mensajes automáticos fuera del horario laboral?
+→ Sí, puede configurarse para enviar mensajes automáticos incluso fuera del horario laboral, según tus preferencias.
+
+¿Puede detectar palabras clave para responder automáticamente en WhatsApp?
+→ Sí, el chatbot puede configurarse para detectar palabras clave y responder automáticamente según las consultas del usuario.
+
+¿El chatbot de Instagram puede responder mensajes directos automáticamente?
+→ Sí, el chatbot de Instagram puede responder mensajes directos automáticamente, lo que permite una atención al cliente más ágil y eficiente.
+
+¿Funciona en historias con botones de respuesta rápida?
+→ Sí, el chatbot puede interactuar con historias que tengan botones de respuesta rápida, permitiendo una mayor interacción con los usuarios.
+
+¿Puede iniciar una conversación cuando alguien comenta una publicación?
+→ Sí, el chatbot puede iniciar una conversación automáticamente cuando alguien comenta en una publicación, lo que facilita la interacción y atención al cliente.

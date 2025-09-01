@@ -1,0 +1,111 @@
+### 💲 Precios
+
+¿Cuál es el precio mínimo para un desarrollo?
+→ A partir de $180 USD, según el tipo de solución y su nivel de complejidad.
+
+¿Cuánto cuesta automatizar un sistema?
+→ Desde $180 USD en adelante, dependiendo del proceso a optimizar y las herramientas necesarias.
+
+¿Cuánto cuesta un chatbot?
+→ Desde $100 USD por un chatbot estándar. Este precio es individual por plataforma (WhatsApp o Instagram), ya que cada uno requiere su propia configuración.
+
+¿Cuánto cuesta agregar nuevas funcionalidades a un sistema ya entregado?
+→ Desde $30 USD para ajustes simples. Funcionalidades más complejas comienzan en $180 USD.
+
+¿Cuánto cuesta agregar nuevas funcionalidades a un chatbot entregado?
+→ Si se trata de funciones dentro de los límites del chatbot, no tiene costo adicional. Funciones avanzadas o externas al flujo original se cotizan por separado.
+
+---
+
+### 📋 Planes y tarifas
+
+¿Tienen planes de precios?
+→ No ofrecemos planes predefinidos. Cada proyecto se cotiza individualmente con base en una tarifa mínima referencial.
+
+¿Ofrecen paquetes por fases de desarrollo, como MVP y versión final?
+→ Sí, pero deben discutirse previamente en reunión para definir alcances y tiempos.
+
+¿Tienen alguna modalidad de suscripción para mejoras continuas?
+→ Sí, ofrecemos un plan de mantenimiento o mejoras continuas que se establece en acuerdo con el cliente.
+
+¿Existen tarifas diferentes para proyectos urgentes o de entrega acelerada?
+→ Sí, los desarrollos urgentes tienen tarifas diferenciadas.
+
+¿Ofrecen precios distintos según el país o la moneda del cliente?
+→ No, los precios se mantienen estandarizados sin importar la ubicación.
+
+¿Hay tarifas preferenciales si se contratan varios servicios a la vez?
+→ No aplicamos descuentos por volumen de servicios contratados.
+
+---
+
+### 📑 Cotizaciones
+
+¿Cómo puedo cotizar un servicio?
+→ Solo tienes que contactarnos y contarnos tu idea. La cotización es 100% gratuita.
+
+¿La cotización incluye un desglose detallado por cada componente del proyecto?
+→ Sí, entregamos una propuesta desglosada y clara, incluyendo tiempos, costos y fases.
+
+¿Cuánto tiempo tardan en enviar una propuesta después de la reunión inicial?
+→ Entre 1 y 2 días hábiles.
+
+¿Puedo pedir varias cotizaciones con distintos niveles de alcance?
+→ Sí, podemos preparar variantes según el presupuesto o prioridades.
+
+¿Cobran por modificaciones a la cotización inicial?
+→ No cobramos por cambios menores. Si el proyecto ya está en desarrollo o las modificaciones son estructurales, se cotiza el nuevo alcance sin penalizaciones.
+
+¿Es posible recibir una estimación rápida sin agendar una reunión?
+→ Sí. Por ejemplo: chatbot básico (para WhatsApp o Instagram) desde $100 USD, y desarrollos simples desde $180 USD. Para estimaciones personalizadas, sí recomendamos agendar una reunión.
+
+---
+
+### 💳 Pagos
+
+¿Ofrecen pagos en línea o en cuotas?
+→ Sí. Aceptamos Zelle, Pago Móvil, Binance y Bitcoin. También puedes pagar en cuotas, siempre que el monto total esté saldado antes de la entrega final.
+
+¿Qué métodos de pago aceptan para clientes fuera de Venezuela?
+→ Aceptamos Binance y Bitcoin como medios de pago internacionales.
+
+¿Tienen facilidades de pago para proyectos a largo plazo?
+→ Sí. Se establece un cronograma de desarrollo y un monto mensual ajustado al avance del proyecto.
+
+¿Cómo manejan los pagos en proyectos divididos por etapas?
+→ Se define un plan de trabajo y se aplica una mensualidad fija proporcional al avance de cada fase.
+
+¿Se requiere un anticipo para comenzar el desarrollo?
+→ Sí. Solicitamos un anticipo del 15% del valor total del proyecto para iniciar.
+
+¿Qué pasa si el cliente se retrasa en uno de los pagos?
+→ El desarrollo se suspende temporalmente hasta regularizar el pago pendiente.
+
+¿Qué pasa si el cliente se retrasa en uno de los pagos (chatbot)?
+→ Se otorgan 5 días de gracia. Luego de ese plazo, el servicio se paraliza hasta recibir el pago correspondiente.
+
+---
+
+### 📄 Contratos y condiciones
+
+¿Tienen contrato de servicio?
+→ Sí. Antes de comenzar, firmamos un contrato con los términos pactados.
+
+¿Puedo revisar el contrato antes de decidir si contrato el servicio?
+→ Por supuesto. Puedes revisarlo sin ningún costo ni compromiso.
+
+¿El contrato incluye cláusulas de propiedad intelectual?
+→ No por defecto, pero pueden incluirse si el cliente lo solicita.
+
+¿Hay penalización si se cancela el contrato antes de finalizar el proyecto?
+→ No. El cliente puede cancelar en cualquier momento sin penalización. Se entrega todo lo desarrollado hasta la fecha.
+
+¿Incluyen garantía contractual sobre tiempos de entrega?
+→ Sí. El contrato establece los plazos acordados y garantías correspondientes.
+
+¿Pueden ajustar el contrato si cambian los requerimientos a mitad del desarrollo?
+→ Sí, el contrato puede modificarse formalmente para adaptarse a los nuevos requerimientos.
+
+---
+
+¿Te gustaría que también se agregue una sección breve de preguntas frecuentes solo sobre los chatbots, diferenciando entre WhatsApp e Instagram?
