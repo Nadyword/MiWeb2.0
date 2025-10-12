@@ -1,8 +1,86 @@
 "use client";
-import React from "react";
-import Link from "next/link";
+import React, { useState } from "react";
 import Image from "next/image";
+import { useAuth } from "../api/useAuth";
 export default function Register() {
+  const { loading, error, success, register, clearMessages } = useAuth();
+  const [formData, setFormData] = useState({
+    Name: '',
+    Email: '',
+    Password: '',
+    ConfirmPassword: '',
+    Telefono: '',
+    FechaNacimiento: ''
+  });
+
+  const handleInputChange = (e) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [id]: value
+    }));
+    // Limpiar mensajes de error cuando el usuario empiece a escribir
+    if (error) clearMessages();
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Validaciones básicas
+    if (!formData.Name || !formData.Email || !formData.Telefono || !formData.Password || !formData.ConfirmPassword || !formData.FechaNacimiento) {
+      alert('Por favor, completa todos los campos');
+      return;
+    }
+
+    if(formData.FechaNacimiento < new Date().getFullYear() - 18) {
+      alert('Debes tener al menos 18 años');
+      return;
+    }
+
+    if (formData.Password !== formData.ConfirmPassword) {
+      alert('Las contraseñas no coinciden');
+      return;
+    }
+
+    if (formData.Password.length < 6) {
+      alert('La contraseña debe tener al menos 6 caracteres');
+      return;
+    }
+
+    try {
+      const fecha = formData.FechaNacimiento
+        ? new Date(formData.FechaNacimiento).toISOString().slice(0, 10)
+        : '';
+
+      const response = await register(formData);
+
+      if (response > 0) {
+        setFormData({
+          Name: '',
+          Email: '',
+          Telefono: '',
+          Password: '',
+          ConfirmPassword: '',
+          FechaNacimiento: ''
+        });
+      }
+
+
+      // Cerrar modal
+      const modal = document.getElementById('modalRegister');
+      if (modal) {
+        const modalInstance = bootstrap.Modal.getInstance(modal);
+        if (modalInstance) {
+          modalInstance.hide();
+        }
+      }
+
+    } catch (err) {
+      console.error('Error en el registro:', err);
+      // El error ya se maneja en el hook useAuth
+    }
+  };
+
   return (
     <div className="modal modal-account fade" id="modalRegister">
       <div className="modal-dialog modal-dialog-centered">
@@ -11,12 +89,12 @@ export default function Register() {
             <div className="banner-account">
               <Image
                 alt="banner"
-                width={380}
-                height={858}
+                width={300}
+                height={680}
                 src="/images/section/banner-register.jpg"
               />
             </div>
-            <form className="form-account" onSubmit={(e) => e.preventDefault()}>
+            <form className="form-account" onSubmit={handleSubmit}>
               <div className="title-box">
                 <h4>Register</h4>
                 <span
@@ -26,7 +104,6 @@ export default function Register() {
               </div>
               <div className="box">
                 <fieldset className="box-fieldset">
-                  <label htmlFor="username">User name</label>
                   <div className="ip-field">
                     <svg
                       className="icon"
@@ -46,13 +123,15 @@ export default function Register() {
                     <input
                       type="text"
                       className="form-control"
-                      id="username"
-                      placeholder="User name"
+                      id="Name"
+                      placeholder="Nombre"
+                      value={formData.Name}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                 </fieldset>
                 <fieldset className="box-fieldset">
-                  <label htmlFor="email">Email address</label>
                   <div className="ip-field">
                     <svg
                       className="icon"
@@ -70,15 +149,41 @@ export default function Register() {
                       />
                     </svg>
                     <input
-                      type="text"
+                      type="email"
                       className="form-control"
-                      id="email"
-                      placeholder="Email address"
+                      id="Email"
+                      placeholder="Correo electrónico"
+                      value={formData.Email}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                 </fieldset>
                 <fieldset className="box-fieldset">
-                  <label htmlFor="pass2">Password</label>
+                  <div className="ip-field">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      className="icon"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <input
+                      type="tel"
+                      className="form-control"
+                      id="Telefono"
+                      placeholder="Teléfono"
+                      value={formData.Telefono}
+                      onChange={handleInputChange}
+                      required
+                    />
+                  </div>
+                </fieldset>
+                <fieldset className="box-fieldset">
                   <div className="ip-field">
                     <svg
                       className="icon"
@@ -98,13 +203,15 @@ export default function Register() {
                     <input
                       type="password"
                       className="form-control"
-                      id="pass2"
-                      placeholder="Your password"
+                      id="Password"
+                      placeholder="Contraseña"
+                      value={formData.Password}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                 </fieldset>
                 <fieldset className="box-fieldset">
-                  <label htmlFor="confirm">Confirm password</label>
                   <div className="ip-field">
                     <svg
                       className="icon"
@@ -124,102 +231,68 @@ export default function Register() {
                     <input
                       type="password"
                       className="form-control"
-                      id="confirm"
-                      placeholder="Confirm password"
+                      id="ConfirmPassword"
+                      placeholder="Confirmar contraseña"
+                      value={formData.ConfirmPassword}
+                      onChange={handleInputChange}
+                      required
+                    />
+                  </div>
+                </fieldset>
+                <fieldset className="box-fieldset">
+                  <div className="ip-field">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                      width="16" height="16"
+                      fill="currentColor"
+                      className="icon"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+                    </svg>
+                    <input
+                      type="date"
+                      className="form-control"
+                      id="FechaNacimiento"
+                      placeholder="Fecha de nacimiento"
+                      value={formData.FechaNacimiento}
+                      onChange={handleInputChange}
+                      required
                     />
                   </div>
                 </fieldset>
               </div>
               <div className="box box-btn">
-                <Link
-                  href={`/dashboard`}
-                  className="tf-btn bg-color-primary w-full"
+                <button
+                  type="submit"
+                  className="tf-btn bg-color-primary w-100"
+                  disabled={loading}
                 >
-                  Sign Up
-                </Link>
+                  {loading ? 'Registrando...' : 'Registrarse'}
+                </button>
+
+                {/* Mostrar mensajes de error o éxito */}
+                {error && (
+                  <div className="alert alert-danger mt-3" role="alert">
+                    {error}
+                  </div>
+                )}
+
+                {success && (
+                  <div className="alert alert-success mt-3" role="alert">
+                    ¡Registro exitoso! Ya puedes iniciar sesión.
+                  </div>
+                )}
                 <div className="text text-center">
-                  Don’t you have an account?
+                  Ya tengo una cuenta {"-> "}
                   <a
                     href="#modalLogin"
                     data-bs-toggle="modal"
                     className="text-color-primary"
                   >
-                    Sign In
+                    Iniciar sesión
                   </a>
                 </div>
-              </div>
-              <p className="box text-center caption-2">or login with</p>
-              <div className="group-btn">
-                <a href="#" className="btn-social">
-                  <svg
-                    width={21}
-                    height={20}
-                    viewBox="0 0 21 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clipPath="url(#clip0_2478_12036)">
-                      <path
-                        d="M4.93242 12.0863L4.23625 14.6852L1.69176 14.739C0.931328 13.3286 0.5 11.7149 0.5 10C0.5 8.34179 0.903281 6.77804 1.61812 5.40112H1.61867L3.88398 5.81644L4.87633 8.06815C4.66863 8.67366 4.55543 9.32366 4.55543 10C4.55551 10.7341 4.68848 11.4374 4.93242 12.0863Z"
-                        fill="#FBBB00"
-                      />
-                      <path
-                        d="M20.3242 8.1319C20.439 8.73682 20.4989 9.36155 20.4989 10C20.4989 10.716 20.4236 11.4143 20.2802 12.088C19.7934 14.3803 18.5214 16.3819 16.7594 17.7984L16.7588 17.7978L13.9055 17.6522L13.5017 15.1314C14.6709 14.4456 15.5847 13.3726 16.066 12.088H10.7188V8.1319H20.3242Z"
-                        fill="#518EF8"
-                      />
-                      <path
-                        d="M16.7595 17.7978L16.7601 17.7984C15.0464 19.1758 12.8694 20 10.4996 20C6.69141 20 3.38043 17.8715 1.69141 14.739L4.93207 12.0863C5.77656 14.3401 7.95074 15.9445 10.4996 15.9445C11.5952 15.9445 12.6216 15.6484 13.5024 15.1313L16.7595 17.7978Z"
-                        fill="#28B446"
-                      />
-                      <path
-                        d="M16.882 2.30219L13.6425 4.95437C12.7309 4.38461 11.6534 4.05547 10.4991 4.05547C7.89246 4.05547 5.67762 5.73348 4.87543 8.06812L1.61773 5.40109H1.61719C3.28148 2.1923 6.63422 0 10.4991 0C12.9254 0 15.1502 0.864297 16.882 2.30219Z"
-                        fill="#F14336"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2478_12036">
-                        <rect
-                          width={20}
-                          height={20}
-                          fill="white"
-                          transform="translate(0.5)"
-                        />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  Google
-                </a>
-                <a href="#" className="btn-social">
-                  <svg
-                    width={21}
-                    height={20}
-                    viewBox="0 0 21 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clipPath="url(#clip0_2478_12044)">
-                      <path
-                        d="M20.5 10C20.5 14.9914 16.843 19.1285 12.0625 19.8785V12.8906H14.3926L14.8359 10H12.0625V8.12422C12.0625 7.3332 12.45 6.5625 13.6922 6.5625H14.9531V4.10156C14.9531 4.10156 13.8086 3.90625 12.7145 3.90625C10.4305 3.90625 8.9375 5.29063 8.9375 7.79688V10H6.39844V12.8906H8.9375V19.8785C4.15703 19.1285 0.5 14.9914 0.5 10C0.5 4.47734 4.97734 0 10.5 0C16.0227 0 20.5 4.47734 20.5 10Z"
-                        fill="#1877F2"
-                      />
-                      <path
-                        d="M14.3926 12.8906L14.8359 10H12.0625V8.12418C12.0625 7.33336 12.4499 6.5625 13.6921 6.5625H14.9531V4.10156C14.9531 4.10156 13.8088 3.90625 12.7146 3.90625C10.4304 3.90625 8.9375 5.29063 8.9375 7.79688V10H6.39844V12.8906H8.9375V19.8785C9.44664 19.9584 9.96844 20 10.5 20C11.0316 20 11.5534 19.9584 12.0625 19.8785V12.8906H14.3926Z"
-                        fill="white"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2478_12044">
-                        <rect
-                          width={20}
-                          height={20}
-                          fill="white"
-                          transform="translate(0.5)"
-                        />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  Facebook
-                </a>
               </div>
             </form>
           </div>

@@ -59,12 +59,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                            Término 1
+                          <a href="/TermsAndConditions">
+                            Uso del Sitio Web
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          imformacion de término 1
+                          El usuario se compromete a utilizar el portal únicamente con fines legales y conforme a las buenas prácticas, evitando cualquier acción que pueda afectar el funcionamiento o la imagen de la empresa.
                         </p>
                       </div>
                       <div className="icons-box default effec-icon ">
@@ -91,12 +91,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                            Término 2
+                          <a href="/TermsAndConditions">
+                            Propiedad Intelectual
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          imformacion de término 2
+                          Todos los contenidos, logotipos e imágenes publicados en el sitio pertenecen a Élite Emporium Properties C.A. y están protegidos por la ley. Su uso sin autorización está estrictamente prohibido.
                         </p>
                       </div>
                       <div className="icons-box default effec-icon ">
@@ -119,12 +119,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                            Término 3
+                          <a href="/TermsAndConditions">
+                            Jurisdicción Legal
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          imformacion de término 3
+                          Las relaciones entre los usuarios y Élite Emporium Properties se regirán por la legislación de la República Bolivariana de Venezuela, bajo la competencia de los tribunales de Caracas, Distrito Capital.
                         </p>
                       </div>
                     </div>
@@ -157,12 +157,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                            Condiciones 1
+                          <a href="/TermsAndConditions">
+                            Tratamiento de Datos Personales
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          Informacion de condiciones 1
+                          Los datos proporcionados por los usuarios serán tratados de forma confidencial y utilizados únicamente para ofrecer servicios inmobiliarios o responder solicitudes autorizadas.
                         </p>
                       </div>
                       <div className="icons-box default effec-icon ">
@@ -189,12 +189,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                          Condiciones 2
+                          <a href="/TermsAndConditions">
+                            Derechos de los Usuarios
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          Informacion de Condiciones 2
+                          Los usuarios pueden acceder, modificar o eliminar su información personal en cualquier momento, enviando una solicitud al correo institucional oficial.
                         </p>
                       </div>
                       <div className="icons-box default effec-icon ">
@@ -217,12 +217,12 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
-                          Condiciones 3
+                          <a href="/TermsAndConditions">
+                            Seguridad y Confidencialidad
                           </a>
                         </h4>
                         <p className="text-center text-1">
-                          Imformacion de Condiciones 3
+                          Élite Emporium Properties aplica medidas técnicas y administrativas para proteger los datos personales contra pérdida, acceso no autorizado o uso indebido.
                         </p>
                       </div>
                     </div>
@@ -255,7 +255,7 @@ export default function HelpCenter() {
                           </svg>
                         </div>
                         <h4 className="title text-center">
-                          <a href="#">
+                          <a href="/TermsAndConditions">
                             Find out how much you <br />
                             can afford
                           </a>
@@ -357,7 +357,7 @@ export default function HelpCenter() {
             </div>
             <p className="text text-center text-1 " data-wow-duration="2s">
               Para mas información
-              <a href="#" className="fw-7">
+              <a href="/TermsAndConditions" className="fw-7">
                 Términos y condiciones
               </a>
             </p>

@@ -9,15 +9,7 @@ export default function PageTitle() {
           <div className="col-lg-8">
             <div className="content-inner">
               <div className="heading-title">
-                <h2 className="title">Home Loan Process</h2>
-                <ul className="breadcrumb justify-center">
-                  <li>
-                    <Link className="home fw-6 text-color-3" href={`/`}>
-                      Home
-                    </Link>
-                  </li>
-                  <li>Property Listing</li>
-                </ul>
+                <h2 className="title">Terminos y condiciones</h2>
               </div>
             </div>
           </div>

@@ -1,0 +1,35 @@
+CREATE OR REPLACE FUNCTION auth_login(
+    p_login    text,  -- puede ser nombre o email
+    p_password text
+)
+RETURNS boolean
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  v_id   integer;
+  v_hash text;
+BEGIN
+  -- buscamos por nombre o email, y que esté activo
+  SELECT id, password
+    INTO v_id, v_hash
+  FROM usuarios
+  WHERE (nombre = p_login OR email = p_login)
+    AND activo = TRUE
+  LIMIT 1;
+
+  IF NOT FOUND THEN
+    RETURN FALSE;
+  END IF;
+
+  IF v_hash = crypt(p_password, v_hash) THEN
+    UPDATE usuarios
+       SET actualizado_en = NOW()
+     WHERE id = v_id;
+    RETURN TRUE;
+  ELSE
+    RETURN FALSE;
+  END IF;
+END;
+$$;
+
+SELECT auth_login('pepe@acme.com', 'MiSecreta123'); -- por email

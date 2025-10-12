@@ -1,7 +1,5 @@
-import DashboardNav from "./DashboardNav";
 import Link from "next/link";
 import React from "react";
-import Nav from "./Nav";
 
 export default function Header1({ parentClass = "header" }) {
   return (
@@ -41,10 +39,10 @@ export default function Header1({ parentClass = "header" }) {
                         />
                       </svg>
                     </div>
-                    <p>(424) 555-5555</p>
+                    <p>+58 (0424) 225-85-05</p>
                   </div>
                   <div className="btn-add">
-                    <a href="#modalRegister" className="tf-btn style-border pd-23" data-bs-toggle="modal">
+                    <a href="#modalLogin" className="tf-btn style-border pd-23" data-bs-toggle="modal">
                       Inicia sesión{" "}
                     </a>
                   </div>

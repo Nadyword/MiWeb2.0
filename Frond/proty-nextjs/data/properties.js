@@ -1,7 +1,7 @@
 export const properties = [
   {
     id: 1,
-    imageSrc: "/images/section/box-house-10.jpg",
+    imageSrc: "/images/section/box-house-10.webp",
     title: "Elegant studio flat",
     location: "Carrera 20, San Cristóbal 5001, Táchira",
     beds: 3,
@@ -15,7 +15,7 @@ export const properties = [
   },
   {
     id: 2,
-    imageSrc: "/images/section/box-house-11.jpg",
+    imageSrc: "/images/section/box-house-11.png",
     title: "Elegant studio flat",
     location: "F4W7+MMM, Av. Casanova, Caracas 1052, Distrito Capital",
     beds: 3,
@@ -29,7 +29,7 @@ export const properties = [
   },
   {
     id: 3,
-    imageSrc: "/images/section/box-house-12.jpg",
+    imageSrc: "/images/section/box-house-13.webp",
     title: "Elegant studio flat",
     location: "Nivel Terraza, CC La Terraza, Av. Victor Batista, Los Teques 1201, Miranda",
     beds: 2,
@@ -69,7 +69,7 @@ export const properties = [
   },
   {
     id: 6,
-    imageSrc: "/images/section/box-house-2.jpg",
+    imageSrc: "/images/section/box-house-2.webp",
     title: "Apartamento elegante",
     location: "Av. 15 de Julio, Maracaibo 4001",
     beds: 4,
@@ -314,7 +314,7 @@ export const properties6 = [
   },
   {
     id: 28,
-    imageSrc: "/images/section/box-house-list-2.jpg",
+    imageSrc: "/images/section/box-house-list-2.webp",
     title: "Apartamento elegante",
     location: "Valencia, Carabobo 2001",
     beds: 3,
@@ -325,7 +325,7 @@ export const properties6 = [
   },
   {
     id: 29,
-    imageSrc: "/images/section/box-house-list-3.jpg",
+    imageSrc: "/images/section/box-house-list-3.webp",
     title: "Apartamento elegante",
     location: "Maracaibo, Zulia 4001",
     beds: 3,
@@ -336,7 +336,7 @@ export const properties6 = [
   },
   {
     id: 30,
-    imageSrc: "/images/section/box-house-list-4.jpg",
+    imageSrc: "/images/section/box-house-list-4.webp",
     title: "Apartamento elegante",
     location: "Barquisimeto, Lara 3001",
     beds: 5,
@@ -350,7 +350,7 @@ export const properties6 = [
 export const properties7 = [
   {
     id: 31,
-    imageSrc: "/images/section/box-house-4.jpg",
+    imageSrc: "/images/section/box-house-4.webp",
     imageWidth: 600,
     imageHeight: 401,
     featured: true,
