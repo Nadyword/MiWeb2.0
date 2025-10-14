@@ -2,7 +2,7 @@ const NEXT_PUBLIC_API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 class ApiService {
   constructor() {
-    this.baseURL = NEXT_PUBLIC_API_URL || 'http://localhost:5069/Inmo/api/';
+    this.baseURL = NEXT_PUBLIC_API_URL || 'https://prueba.solutions-softwares.com/Inmo/api/';
   }
 
   // Método genérico para hacer peticiones HTTP
