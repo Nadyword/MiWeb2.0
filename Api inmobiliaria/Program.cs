@@ -3,7 +3,6 @@ using Api_inmobiliaria.DataBase;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Permitir solicitudes de cualquier origen
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -19,6 +18,7 @@ builder.Services.AddTransient<SendMail>();
 ConnectionDB.Initialize(builder.Configuration);
 
 builder.Services.AddControllers();
+builder.WebHost.UseUrls("http://localhost:3001");
 
 var app = builder.Build();
 

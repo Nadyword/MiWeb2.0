@@ -23,10 +23,10 @@ C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\st
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\Api inmo.9F61859C.Up2Date
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\Api inmobiliaria.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\refint\Api inmobiliaria.dll
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\Api inmobiliaria.pdb
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\Api inmobiliaria.genruntimeconfig.cache
 C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\obj\Debug\net9.0\ref\Api inmobiliaria.dll
+C:\Users\samue\Documents\Proyectos\MiWeb2.0\Api inmobiliaria\bin\Debug\net9.0\appsettings.Production.json
