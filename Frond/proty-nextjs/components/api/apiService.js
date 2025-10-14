@@ -41,8 +41,8 @@ class ApiService {
 
   // Login de usuario
   async login(credentials) {
-    return this.request('/Login', {
-      method: 'GET',
+    return this.request('Login', {
+      method: 'POST',
       body: JSON.stringify(credentials),
     });
   }

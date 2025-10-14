@@ -1,14 +1,14 @@
-import PagoAprobacion from "@/components/dashboard/PagoAprobacion";
+import ComprarTickets from "@/components/dashboard/ComprarTickets";
 import React from "react";
 
 export const metadata = {
-  title: "My Property || Proty - Real Estate React Nextjs Template",
+  title: "Comprar Tickets || Proty - Real Estate React Nextjs Template",
   description: "Proty - Real Estate React Nextjs Template",
 };
 export default function page() {
   return (
     <>
-      <PagoAprobacion />
+      <ComprarTickets />
     </>
   );
 }

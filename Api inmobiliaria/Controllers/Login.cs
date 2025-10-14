@@ -11,7 +11,7 @@ public class Login : ControllerBase
     private readonly FuncionesDB _funcionesDB = new();
 
     [HttpPost]
-    public bool Logeo([FromBody] RequestLogin request)
+    public int Logeo([FromBody] RequestLogin request)
     {
         return _funcionesDB.Login( request.Email.ToLower(), request.Password);
     }

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import apiService from './apiService';
+import { logout, isLoggedIn, getCurrentUserId } from './useSession';
 
 export const useAuth = () => {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,14 @@ export const useAuth = () => {
 
     try {
       const response = await apiService.login(credentials);
+      
+      // Verificar si las credenciales son incorrectas
+      if (response === 0) {
+        setError("Usuario o contraseña incorrectos. Verifica tus credenciales.");
+        setSuccess(false);
+        return 0;
+      }
+      
       setSuccess(true);
       return response;
     } catch (err) {
@@ -58,6 +67,9 @@ export const useAuth = () => {
     success,
     register,
     login,
+    logout,
+    isLoggedIn,
+    getCurrentUserId,
     clearMessages,
   };
 };

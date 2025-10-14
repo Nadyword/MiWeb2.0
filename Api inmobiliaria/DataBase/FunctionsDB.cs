@@ -9,10 +9,18 @@ public class FuncionesDB
         return ConnectionDB.TestConnection();
     }
 
-    public bool Login(string usu, string pass)
+    public int Login(string usu, string pass)
     {
         List<string> parametros = [$"'{usu}'", $"'{pass}'"];
-        return (bool)ConnectionDB.ExecuteFunction<bool>("auth_login", parametros).Rows[0][0];
+        try
+        {
+            return (int)ConnectionDB.ExecuteFunction<bool>("auth_login", parametros).Rows[0][0];
+        }
+        catch
+        {
+            return 0;
+
+        }
     }
 
     public int Register(string name, string email, string password, string telefono, string fechaNaci)
@@ -22,7 +30,7 @@ public class FuncionesDB
         {
             return (int)ConnectionDB.ExecuteFunction<bool>("usuario_crear", parametros).Rows[0][0];
         }
-        catch 
+        catch
         {
             return 0;
         }

@@ -1,7 +1,52 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { isLoggedIn, getCurrentUserId, logout } from "@/components/api/useSession";
+import LogoutButton from "@/components/common/LogoutButton";
 
 export default function Header1({ parentClass = "header" }) {
+  const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
+  const [userId, setUserId] = useState(null);
+
+  useEffect(() => {
+    // Verificar si el usuario está logueado al cargar el componente
+    const checkLoginStatus = () => {
+      const loggedIn = isLoggedIn();
+      const currentUserId = getCurrentUserId();
+      setIsUserLoggedIn(loggedIn);
+      setUserId(currentUserId);
+    };
+
+    checkLoginStatus();
+
+    // Escuchar cambios en localStorage
+    const handleStorageChange = () => {
+      checkLoginStatus();
+    };
+
+    // Escuchar evento personalizado de login
+    const handleUserLoggedIn = () => {
+      checkLoginStatus();
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+    window.addEventListener('userLoggedIn', handleUserLoggedIn);
+    
+    // También verificar periódicamente (por si se cambia en otra pestaña)
+    const interval = setInterval(checkLoginStatus, 1000);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+      window.removeEventListener('userLoggedIn', handleUserLoggedIn);
+      clearInterval(interval);
+    };
+  }, []);
+
+  const handleLogout = () => {
+    logout();
+    setIsUserLoggedIn(false);
+    setUserId(null);
+  };
   return (
     <header id="header-main" className={parentClass}>
       <div className="header-inner">
@@ -42,9 +87,42 @@ export default function Header1({ parentClass = "header" }) {
                     <p>+58 (0424) 225-85-05</p>
                   </div>
                   <div className="btn-add">
-                    <a href="#modalLogin" className="tf-btn style-border pd-23" data-bs-toggle="modal">
-                      Inicia sesión{" "}
-                    </a>
+                    {isUserLoggedIn ? (
+                      <div className="user-menu">
+                        <div className="dropdown">
+                          <button 
+                            className="tf-btn style-border pd-23 dropdown-toggle" 
+                            type="button" 
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Mi Perfil
+                          </button>
+                          <ul className="dropdown-menu">
+                            <li>
+                              <Link href="/dashboard" className="dropdown-item">
+                                <i className="fas fa-tachometer-alt me-2"></i>
+                                Dashboard
+                              </Link>
+                            </li>
+                            <li><hr className="dropdown-divider" /></li>
+                            <li>
+                              <button 
+                                className="dropdown-item text-danger" 
+                                onClick={handleLogout}
+                              >
+                                <i className="fas fa-sign-out-alt me-2"></i>
+                                Cerrar Sesión
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    ) : (
+                      <a href="#modalLogin" className="tf-btn style-border pd-23" data-bs-toggle="modal">
+                        Inicia sesión
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

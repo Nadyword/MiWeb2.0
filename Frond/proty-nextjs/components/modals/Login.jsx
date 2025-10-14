@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import apiService from "../api/apiService";
 import React, { useState } from "react";
 import Image from "next/image";
+import { closeModal } from "../common/modalUtils";
 
 export default function Login() {
   const router = useRouter();
@@ -41,22 +42,59 @@ export default function Login() {
         Password: formData.Password
       });
 
-      // Si el login es exitoso, guardar el token y redirigir
-      if (response.token) {
-        localStorage.setItem('authToken', response.token);
-        localStorage.setItem('user', JSON.stringify(response.user));
+      // Debug: ver qué devuelve el endpoint
+      console.log('🔍 Respuesta del endpoint:', response);
+      console.log('🔍 Tipo de respuesta:', typeof response);
+      console.log('🔍 Es número?', typeof response === 'number');
+      console.log('🔍 Es objeto?', typeof response === 'object');
 
-        // Cerrar el modal
-        const modal = document.getElementById('modalLogin');
-        if (modal) {
-          const modalInstance = bootstrap.Modal.getInstance(modal);
-          if (modalInstance) {
-            modalInstance.hide();
+      // Verificar si las credenciales son incorrectas
+      if (response === 0) {
+        setError("Usuario o contraseña incorrectos. Verifica tus credenciales.");
+        return;
+      }
+
+      // Si el login es exitoso (response es un número > 0 o un objeto con datos)
+      if (response && response !== 0) {
+        // Si response es un número (ID del usuario)
+        if (typeof response === 'number') {
+          localStorage.setItem('userId', response.toString());
+        }
+        // Si response es un objeto con propiedades
+        else if (typeof response === 'object') {
+          // Guardar token si existe
+          if (response.token) {
+            localStorage.setItem('authToken', response.token);
+          }
+          
+          // Guardar ID del usuario
+          if (response.id) {
+            localStorage.setItem('userId', response.id.toString());
+          }
+          
+          // Guardar datos completos del usuario si existen
+          if (response.user) {
+            localStorage.setItem('user', JSON.stringify(response.user));
           }
         }
+        
+        // Guardar timestamp para control de sesión
+        localStorage.setItem('loginTime', Date.now().toString());
+
+        // Cerrar el modal usando la función helper
+        closeModal('modalLogin');
+
+        // Disparar evento personalizado para notificar al header
+        const userId = typeof response === 'number' ? response : response.id;
+        window.dispatchEvent(new CustomEvent('userLoggedIn', { 
+          detail: { userId: userId } 
+        }));
 
         // Redirigir al dashboard
         router.push('/dashboard');
+      } else {
+        // Si no hay datos válidos, mostrar error genérico
+        setError("Error al iniciar sesión. Intenta nuevamente.");
       }
     } catch (error) {
       console.error('Error en login:', error);

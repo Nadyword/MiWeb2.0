@@ -15,6 +15,26 @@
     ],
     "ReturnTypes": [
       {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_inmobiliaria.Controllers.RecoveriPass",
+    "Method": "SendMail",
+    "RelativePath": "Inmo/api/RecoveriPass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
         "Type": "System.Boolean",
         "MediaTypes": [
           "text/plain",

@@ -10,35 +10,44 @@ import MobileMenu from "@/components/headers/MobileMenu";
 import SettingsHandler from "@/components/common/SettingsHandler";
 import Login from "@/components/modals/Login";
 import Register from "@/components/modals/Register";
+import { useSessionCleanup } from "@/components/api/useSession";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   const [isClient, setIsClient] = useState(false);
+  
+  // Hook para limpiar sesión automáticamente
+  useSessionCleanup();
 
   useEffect(() => {
     setIsClient(true);
     
     // Import Bootstrap only on client side
-    import("bootstrap/dist/js/bootstrap.esm");
+    import("bootstrap/dist/js/bootstrap.esm").then(() => {
+      // Bootstrap cargado exitosamente
+      console.log('Bootstrap cargado correctamente');
+    }).catch((error) => {
+      console.warn('Error cargando Bootstrap:', error);
+    });
     
-    // Close any open modal
-    const bootstrap = require("bootstrap"); // dynamically import bootstrap
-    const modalElements = document.querySelectorAll(".modal.show");
-    modalElements.forEach((modal) => {
-      const modalInstance = bootstrap.Modal.getInstance(modal);
-      if (modalInstance) {
-        modalInstance.hide();
-      }
-    });
+    // Función para cerrar modales de forma segura
+    const closeModals = () => {
+      const modalElements = document.querySelectorAll(".modal.show");
+      modalElements.forEach((modal) => {
+        modal.classList.remove('show');
+        modal.style.display = 'none';
+        modal.setAttribute('aria-hidden', 'true');
+      });
+      
+      // Limpiar backdrop y clases del body
+      document.body.classList.remove('modal-open');
+      document.body.style.overflow = '';
+      const backdrops = document.querySelectorAll('.modal-backdrop');
+      backdrops.forEach(backdrop => backdrop.remove());
+    };
 
-    // Close any open offcanvas
-    const offcanvasElements = document.querySelectorAll(".offcanvas.show");
-    offcanvasElements.forEach((offcanvas) => {
-      const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
-      if (offcanvasInstance) {
-        offcanvasInstance.hide();
-      }
-    });
+    // Cerrar modales abiertos al cambiar de ruta
+    closeModals();
   }, [pathname]); // Runs every time the route changes
 
   useEffect(() => {

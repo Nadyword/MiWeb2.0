@@ -363,7 +363,7 @@
     }
   }
   .status-wrap {
-    .btn-status {
+    .btn-status-approve {
       width: 78px;
       padding: 0px 6px;
       border-radius: 999px;
@@ -373,6 +373,25 @@
       font-weight: 800;
       color: var(--White);
       background-color: #25c55b;
+      text-align: center;
+      &.pending {
+        background-color: #ee6742;
+      }
+      &.sold {
+        background-color: #6e55ff;
+      }
+    }
+
+    .btn-status-reject   {
+      width: 78px;
+      padding: 0px 6px;
+      border-radius: 999px;
+      font-size: 13px;
+      line-height: 23px;
+      height: 23px;
+      font-weight: 800;
+      color: var(--Text-white);
+      background-color: #b91010;
       text-align: center;
       &.pending {
         background-color: #ee6742;
